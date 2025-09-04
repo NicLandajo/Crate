@@ -10,47 +10,40 @@ Visit https://buymeacoffee.com/nicolaslandajo to contribute. THANKS!!!
 
 ⚡ Quick Install
 
-1. F3D Viewer portable installation. This is a dependency for Crate.
+1. F3D Viewer portable installation. ATENTION: This is a dependency for Crate.
 
 Download: Get the Windows Portable version from https://github.com/f3d-app    or   https://f3d.app//
 
 Install on windows: Extract the ZIP to C:\Users\Public\f3d_3DModelBrowser\     if you change the name of this folder or it´s location you must update that in the menu.py code around line 19.
 
+Inside "f3d_3DModelBrowser" you should have 4 folders named:
+bin
+include
+lib
+share
+
+
 Tip1: Download: Get the F3D Windows Installer version (OPTIONAL) - This gives you thumbnails for you geo and splats directly in windows explorer.
 
 Tip2: Download: Get Icaros (OPTIONAL) https://github.com/Xanashi - This gives you EXR (a many more file types) thumbnailization while navigating in windows explorer. (Note: This could be the exr engine for future versions of Crate but is not yet implemented).
 
-Note: Crate has never been tested in linux env, but should be easy to implement there too. If you do that please share with the community and please metion Crate in your credits!
 
 2. Get the script
 
-Copy the menu.py file to your Nuke directory or the studio pipeline designated folder for this tool and adapt it.
+Copy the menu.py file to your Nuke directory or the studio pipeline designated folder for this tool and adapt it so your init calls it and Crate lounches with Nuke.
 
 
 3. Configure Paths
 
-Edit these lines in menu.py:
+Edit these lines in menu.py as needed:
 
-ASSET_DIR = r"L:/3D Objects"  # ← Change to your asset library path
+ASSET_DIR = r"L:/3D Objects"  # ← Change to your asset library path if needed.
 
 F3D_PATH = r"C:\Users\Public\f3d_3DModelBrowser\bin\f3d.exe"  # ← Confirm this path
 
-
-🖥️ Usage Modes
-
-For Freelancers (Single Machine)
-
-
-ASSET_DIR = r"E:/my_3d_assets"  # Local drive path
-# Thumbnails stored in: C:\Users\Public\nuke_3d_thumbnails\
-
-
-For Studios (Network Setup)
-
-ASSET_DIR = r"Z:/studio/assets/3d_objects"  # Network path
-# Thumbnails stored in: S:\...\temp_thumbs_cache\ (shared across workstations)
-
 OPEN NUKE and navigate to pane/windows/custom/Crate
+
+Crate works on both mounted and local bare metal drives.
 
 
 📁 Supported Formats
@@ -215,6 +208,9 @@ Network issues: Verify permissions on shared directories
 Performance: First-time thumbnail generation takes longer
 
 Splat support: Requires F3D version with Gaussian Splatting support
+
+
+Note: Crate has never been tested in linux env, but should be easy to implement there too. If you do that please share with the community and please metion Crate in your credits!
 
 
 
