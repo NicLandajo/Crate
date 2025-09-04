@@ -7,6 +7,7 @@ Forget about creating cache images in your OS explorer, Crate does everything fo
 Crate is a set of Python scripts designed to work with F3D, a fast and minimalist 3D viewer, to provide asset browsing capabilities for splats and geometry in Nuke.
 
 Installation: please read Crate v1.0 installation intructions.txt
+
 License: please read Crate Licence.md
 
 Some support would be crate!!! - Pay What You Want Model.
