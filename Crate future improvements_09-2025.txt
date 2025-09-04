@@ -1,0 +1,22 @@
+FUTURE IMPROVEMENTS
+
+-thumbs folders in main root directory to navigate folders by looking at the content visually, whitout the need of reading the folder name first (will be implemented only if it works snappy fast)
+-exr thumbnails 
+-hdr thumbnails
+-abc geometry to support older HDF format for thumb generation if possible. Not a priority.
+-a way to feed Crate library of objects and splats with an export/import simple panel directly from Nuke.
+-direct embeded of F3D viewer window inside Crate interface, by putting the current library navigation panel on the left and the F3D window on the right. Final check with F3D license to confirm if possible.
+
+
+We’re seeking contributors to expand Crate, to other VFX software such as Maya, Houdini, Blender, Modo, 3DEqualizer, and any Python-based platform.
+
+You’re welcome to adapt Crate for these tools, provided you:
+
+Acknowledge the original creator, Nicolas Landajo, and link to the source repository (https://github.com/NicLandajo/Crate) in your documentation or materials.
+
+Adhere to the terms of the Crate License, which prohibits commercial sales but allows donations and modifications.
+
+Let’s keep Crate snappy, efficient, and true to its minimalist design!
+
+
+
