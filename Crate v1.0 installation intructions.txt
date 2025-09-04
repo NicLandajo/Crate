@@ -1,0 +1,227 @@
+
+Crate - 3D Asset Browser (tested in Nuke 15.2v1)
+
+Crate is a powerful geometry and gaussian splats asset browser integrated panel for Nuke that allows you to visually browse your 3D assets fast.
+Quickly import nodes with a double-click and manage your entire geo, splat and texture library directly within Nuke. Works for both single users and multi-studio pipelines.
+Adaptation to tools like Maya, Houdini, Max, Blender, etc should be easy to implement. If you explore this path based on this tool please share it with the community and please metion Crate in your credits!
+
+Some support would be crate!!! Crate is free to use, but creating and maintaining this tool takes a lot of work., for that reason donations are always welcome and help us with ongoing development!
+Visit https://buymeacoffee.com/nicolaslandajo to contribute. THANKS!!!
+
+⚡ Quick Install
+
+1. F3D Viewer portable installation. This is a dependency for Crate.
+
+Download: Get the Windows Portable version from https://github.com/f3d-app    or   https://f3d.app//
+
+Install on windows: Extract the ZIP to C:\Users\Public\f3d_3DModelBrowser\     if you change the name of this folder or it´s location you must update that in the menu.py code around line 19.
+
+Tip1: Download: Get the F3D Windows Installer version (OPTIONAL) - This gives you thumbnails for you geo and splats directly in windows explorer.
+
+Tip2: Download: Get Icaros (OPTIONAL) https://github.com/Xanashi - This gives you EXR (a many more file types) thumbnailization while navigating in windows explorer. (Note: This could be the exr engine for future versions of Crate but is not yet implemented).
+
+Note: Crate has never been tested in linux env, but should be easy to implement there too. If you do that please share with the community and please metion Crate in your credits!
+
+2. Get the script
+
+Copy the menu.py file to your Nuke directory or the studio pipeline designated folder for this tool and adapt it.
+
+
+3. Configure Paths
+
+Edit these lines in menu.py:
+
+ASSET_DIR = r"L:/3D Objects"  # ← Change to your asset library path
+
+F3D_PATH = r"C:\Users\Public\f3d_3DModelBrowser\bin\f3d.exe"  # ← Confirm this path
+
+
+🖥️ Usage Modes
+
+For Freelancers (Single Machine)
+
+
+ASSET_DIR = r"E:/my_3d_assets"  # Local drive path
+# Thumbnails stored in: C:\Users\Public\nuke_3d_thumbnails\
+
+
+For Studios (Network Setup)
+
+ASSET_DIR = r"Z:/studio/assets/3d_objects"  # Network path
+# Thumbnails stored in: S:\...\temp_thumbs_cache\ (shared across workstations)
+
+OPEN NUKE and navigate to pane/windows/custom/Crate
+
+
+📁 Supported Formats
+
+3D Models (✓ Full Support)
+
+.obj, .fbx - Universal mesh formats
+
+.abc - Alembic (Ogawa format only)
+
+.stl, .ply - 3D printing & point cloud formats
+
+.splat - Gaussian Splatting files (3DGS format)
+
+.gltf, .glb - Web/Real-time formats
+
+.usd, .usdc, .usdz - Pixar USD formats
+
+Textures & Images (✓ Full Support)
+
+.exr - High dynamic range (not yet producing thumbnails inside the browser)
+
+.png, .jpg/.jpeg
+
+.tga, .tif/.tiff
+
+.hdr - (not yet producing thumbnails inside the browser)
+
+
+Note: Some geo formats and legacy types may not generate a thumbnail; in that case, Crate will automatically fall into a colored placeholder designated with the name of the geo format type.
+
+
+Note on Alembic Formats
+
+Supported: Ogawa format
+
+Not Supported: HDF5 format (but loading in nodegraph is always supported for any type of file no matter if it´s thumbnassible or not)
+
+Convert HDF5 → Ogawa if needed.
+
+
+Congratulations!
+
+Crate is now ready to use with comprehensive format support including cutting-edge Gaussian Splatting. This tool will:
+
+✅ Save time with visual asset browsing
+
+✅ Improve workflow with one-click node creation
+
+✅ Work everywhere from single machines to studio pipelines
+
+✅ Scale effortlessly with your growing asset library
+
+✅ Potential migration to Maya, Houdini, Max, Blender, 3DE and more.
+
+Happy browsing!
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+🔧 Advanced Installation complex pipelines
+
+Dear coder, programmer, pipe TD. If you take this tool to the next level or want to help please share your progress with the community and mention Crate in your credits.. We would love to see this tool getting better and better. Thanks!
+Also, if you´re taking this tool to maya, max, houdini, blender, modo,3DE, etc, please share it! Let us all know!
+
+For Pipeline TDs (Network Deployment)
+1. Centralized Configuration
+python
+# Network deployment example
+ASSET_DIR = r"//server/assets/3d_library"
+F3D_PATH = r"//server/tools/f3d/bin/f3d.exe"
+2. Shared Thumbnail Cache
+python
+# Add to ThumbnailCache class __init__:
+self.cache_dir = r"//server/shared/nuke_thumbnails"
+3. Environment Variables (Optional)
+Set system environment variables for override:
+
+NUKE_3D_ASSET_DIR - Overrides ASSET_DIR
+
+NUKE_F3D_PATH - Overrides F3D_PATH
+
+Performance Optimization
+First visit: Generates thumbnails (slower)
+
+Subsequent visits: Uses cached thumbnails (instant)
+
+Network optimization: Cache shared across workstations
+
+Auto-cleanup: Old thumbnails automatically removed after 30 days  (not sure is this is working.......)
+
+🛠️ Features & Controls
+Navigation
+Back/Up/Home: Folder navigation
+
+Hide/Show Textures: Toggle texture visibility
+
+Search: Real-time filtering by filename
+
+Thumbnail Management
+Zoom (-/+/Fit): Adjust thumbnail size
+
+Regenerate Thumbs: Force refresh all thumbnails
+
+Test F3D: Diagnostic tool for troubleshooting
+
+Integration
+Double-click models: Creates ReadGeo node
+
+Double-click textures: Creates Read node
+
+Double-click .splat/.ply: Creates appropriate 3D nodes.....hmm I wish....no native splatting in nuke yet
+
+Open in F3D: External viewing button opens f3d for full viewing experience and multiple f3d controls by pressing the H key on the keyboard once in f3d window.
+
+🔍 Technical Details
+How It Works
+Discovery: Scans directories for supported formats (including .splat and .ply)
+
+Caching: Stores thumbnails in temp directory
+
+Generation: Uses F3D for 3D model and splat thumbnails
+
+Display: Responsive grid layout with smooth scaling
+
+F3D Integration
+License: F3D is open-source (BSD license)
+
+Source: github.com/f3d-app/f3d
+
+Portable: No installation required, just extract and run
+
+Network Performance
+Bandwidth friendly: Thumbnails cached locally after first generation
+
+Multi-user safe: Hash-based caching prevents conflicts
+
+Error resilient: Falls back to local cache if network unavailable
+
+🐛 Troubleshooting
+Common Issues
+"F3D not found": Check F3D_PATH in menu.py
+
+Missing thumbnails: Use "Regenerate Thumbs" button
+
+Alembic not working: Ensure files are Ogawa format (please share if you find a way to make it work with other abc types)
+fbx sometimes not working, you know how fbx is....(please share if you find a way to make it work with all fbx types)
+
+Splat files not showing: Ensure F3D version supports .splat format
+
+Debug Tools
+Debug Button: Shows system information
+
+Test F3D Button: Tests F3D functionality
+
+Console Messages: Check Nuke's Script Editor for details
+
+Support
+Format issues: Check supported formats list above
+
+Network issues: Verify permissions on shared directories
+
+Performance: First-time thumbnail generation takes longer
+
+Splat support: Requires F3D version with Gaussian Splatting support
+
+
+
+📚 Additional Resources
+F3D Documentation: https://github.com/f3d-app/f3d
+
+Gaussian Splatting Info: https://github.com/graphdeco-inria/gaussian-splatting
+
+Icaros https://github.com/Xanashi/Icaros
+
