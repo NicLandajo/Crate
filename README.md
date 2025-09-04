@@ -34,4 +34,9 @@ License
 
 Crate is licensed under the Crate License, a permissive license with restrictions on commercial sales. See Crate LICENSE.md for details.
 
+<img width="1088" height="612" alt="cat2 wide - C169" src="https://github.com/user-attachments/assets/125e038f-49c0-492a-b6d8-24ccc1277346" />
+
+
+
+
 F3D, which Crate depends on, is licensed under the BSD 3-Clause License.
