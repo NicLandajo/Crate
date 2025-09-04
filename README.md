@@ -13,7 +13,9 @@ Installation: please read Crate v1.0 installation intructions.txt
 License: please read Crate Licence.md
 
 Some support would be crate!!! - Pay What You Want Model.
-Crate is free to use, but creating and maintaining this tool takes a lot of work., for that reason donations are always welcome and help us with ongoing development!
+Crate is free to use for hobbyists, freelancers, studios, and businesses. However, creating and maintaining this tool takes a lot of time and effort,
+so donations are always welcome and greatly appreciated—they help support ongoing development.
+
 Visit https://buymeacoffee.com/nicolaslandajo to contribute.
 
 Thank you for your support and happy browsing!
