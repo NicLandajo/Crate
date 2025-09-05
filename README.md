@@ -30,8 +30,6 @@ Acknowledge the original creator, Nicolas Landajo, and link to the source reposi
 
 Adhere to the terms of the Crate License, which prohibits commercial sales but allows donations and modifications.
 
-Let’s keep Crate snappy, efficient, and true to its minimalist design!
-
 License
 
 Crate is licensed under the Crate License, a permissive license with restrictions on commercial sales. See Crate LICENSE.md for details.
@@ -39,3 +37,6 @@ Crate is licensed under the Crate License, a permissive license with restriction
 F3D, which Crate depends on, is licensed under the BSD 3-Clause License.
 
 <img width="1088" height="612" alt="cat2 wide - C169" src="https://github.com/user-attachments/assets/125e038f-49c0-492a-b6d8-24ccc1277346" />
+
+
+Let’s keep Crate snappy, efficient, and true to its minimalist design!
