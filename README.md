@@ -26,11 +26,9 @@ We’re seeking contributors to expand Crate, to other VFX software such as Maya
 
 You’re welcome to adapt Crate for these tools, provided you:
 
-Acknowledge the original creator, Nicolas Landajo, and link to the source repository (https://github.com/NicLandajo/Crate) in your documentation or materials.
+Acknowledge the original creator and link to the source repository (https://github.com/NicLandajo/Crate) in your documentation or materials.
 
 Adhere to the terms of the Crate License, which prohibits commercial sales but allows donations and modifications.
-
-License
 
 Crate is licensed under the Crate License, a permissive license with restrictions on commercial sales. See Crate LICENSE.md for details.
 
