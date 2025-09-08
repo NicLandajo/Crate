@@ -20,8 +20,6 @@ so donations are always welcome and greatly appreciated—they help support ongo
 
 Visit https://buymeacoffee.com/nicolaslandajo to contribute.
 
-Thank you for your support and happy browsing!
-
 Check playlist of videos here! https://www.youtube.com/playlist?list=PLPqEIUVfnnz6pt2Bg8_i-BTS6PeyLD2nX
 
 We’re seeking contributors to expand Crate, to other VFX software such as Maya, Houdini, Blender, Modo, 3DEqualizer, and any Python-based platform.
@@ -38,6 +36,6 @@ Crate is licensed under the Crate License, a permissive license with restriction
 
 F3D, which Crate depends on, is licensed under the BSD 3-Clause License.
 
-Let’s keep Crate snappy, efficient, and true to its minimalist design!
+Let’s keep Crate snappy, efficient, and true to its minimalist design! Thank you for your support and happy browsing!
 
 <img width="1088" height="612" alt="cat2 wide - C169" src="https://github.com/user-attachments/assets/125e038f-49c0-492a-b6d8-24ccc1277346" />
