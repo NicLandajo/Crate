@@ -2,6 +2,8 @@
 
 Crate is a 3D browser for Nuke that generates thumbnails from geometry and gaussian splats automatically for you.
 
+Always check the releases page for the latest version of Crate.: https://github.com/NicLandajo/Crate/releases
+
 No more guesswork, just thumbnails, making it easier than ever to find, organize, and access your 3D resources.
 Double-click and the asset will instantly appear in the nodegraph.
 Forget about creating cache images in your OS explorer, Crate does everything for you in the background right inside Nuke.
