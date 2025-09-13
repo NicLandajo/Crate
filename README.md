@@ -18,7 +18,7 @@ Some support would be crate!!! - Pay What You Want Model.
 Crate is free to use for hobbyists, freelancers, studios, and businesses. However, creating and maintaining this tool takes a lot of time and effort,
 so donations are always welcome and greatly appreciated—they help support ongoing development.
 
-Visit https://buymeacoffee.com/nicolaslandajo to contribute.
+☕Please support this project☕ Thank You! https://buymeacoffee.com/nicolaslandajo
 
 Check playlist of videos here! https://www.youtube.com/playlist?list=PLPqEIUVfnnz6pt2Bg8_i-BTS6PeyLD2nX
 
