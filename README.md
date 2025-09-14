@@ -29,7 +29,7 @@ Adhere to the terms of the Crate License, which prohibits commercial sales but a
 Crate is licensed under the Crate License, a permissive license with restrictions on commercial sales. See Crate LICENSE.md for details.
 
 F3D, which Crate depends on, is licensed under the BSD 3-Clause License.
-
+#
 Let’s keep Crate snappy, efficient, and true to its minimalist design! Thank you for your support and happy browsing!
 #
 <img width="1088" height="612" alt="cat2 wide - C169" src="https://github.com/user-attachments/assets/125e038f-49c0-492a-b6d8-24ccc1277346" />
