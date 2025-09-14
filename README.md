@@ -12,8 +12,6 @@ Crate is a set of Python scripts designed to work with F3D, a fast and minimalis
 #
 Installation: please read Crate v1.0 installation intructions.txt
 #
-License: please read Crate Licence.md
-#
 Some support would be crate!!! ☕Please support this project☕ Thank You! https://buymeacoffee.com/nicolaslandajo
 #
 Check playlist of videos here! https://www.youtube.com/playlist?list=PLPqEIUVfnnz6pt2Bg8_i-BTS6PeyLD2nX
@@ -24,6 +22,8 @@ You’re welcome to adapt Crate for these tools, provided you:
 
 Acknowledge the original creator and link to the source repository (https://github.com/NicLandajo/Crate) in your documentation or materials.
 #
+License: please read Crate Licence.md
+
 Adhere to the terms of the Crate License, which prohibits commercial sales but allows donations and modifications.
 
 Crate is licensed under the Crate License, a permissive license with restrictions on commercial sales. See Crate LICENSE.md for details.
