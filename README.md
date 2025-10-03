@@ -12,7 +12,15 @@ Crate is a set of Python scripts designed to work with F3D, a fast and minimalis
 #
 Installation: please read Crate v1.0 installation intructions.txt
 #
-Some support would be crate!!! ☕Please support this project☕ Thank You! https://buymeacoffee.com/nicolaslandajo
+☕︎ Support: A small donation helps! ☕︎ https://buymeacoffee.com/nicolaslandajo
+
+⭐ Star this repository — it’s quick, free, and helps others discover the project
+
+🌍 Share this tool with anyone you think would enjoy it! 🌍
+
+🪲 Report any bugs you come across
+
+📄 Contribute improvements
 #
 Check playlist of videos here! https://www.youtube.com/playlist?list=PLPqEIUVfnnz6pt2Bg8_i-BTS6PeyLD2nX
 #
