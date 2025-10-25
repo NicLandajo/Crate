@@ -16,6 +16,7 @@ Check playlist of videos here! https://www.youtube.com/playlist?list=PLPqEIUVfnn
 <img width="1874" height="999" alt="crate3" src="https://github.com/user-attachments/assets/bbbe68fe-96b5-47fa-8f20-4a7867bba6fb" />
 <img width="1871" height="998" alt="crate4" src="https://github.com/user-attachments/assets/089dc71d-cc8b-421a-a352-29494d075832" />
 <img width="1870" height="1001" alt="crate2" src="https://github.com/user-attachments/assets/19561e44-c189-4827-a163-1fdf9b3e3a17" />
+
 #
 Installation: please read Crate v1.0 installation intructions.txt
 #
