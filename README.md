@@ -10,6 +10,13 @@ Forget about creating cache images in your OS explorer, Crate does everything fo
 
 Crate is a set of Python scripts designed to work with F3D, a fast and minimalist 3D viewer, to provide asset browsing capabilities for splats and geometry in Nuke.
 #
+
+<img width="1872" height="992" alt="crate1" src="https://github.com/user-attachments/assets/da0c2b57-c42b-4b09-9b21-9cea0b3c299b" />
+<img width="1870" height="1001" alt="crate2" src="https://github.com/user-attachments/assets/19561e44-c189-4827-a163-1fdf9b3e3a17" />
+<img width="1874" height="999" alt="crate3" src="https://github.com/user-attachments/assets/bbbe68fe-96b5-47fa-8f20-4a7867bba6fb" />
+<img width="1871" height="998" alt="crate4" src="https://github.com/user-attachments/assets/089dc71d-cc8b-421a-a352-29494d075832" />
+
+#
 Installation: please read Crate v1.0 installation intructions.txt
 #
 ☕︎ Support: A small donation helps! ☕︎ https://buymeacoffee.com/nicolaslandajo
@@ -40,4 +47,3 @@ F3D, which Crate depends on, is licensed under the BSD 3-Clause License.
 #
 Let’s keep Crate snappy, efficient, and true to its minimalist design! Thank you for your support and happy browsing!
 #
-<img width="1088" height="612" alt="cat2 wide - C169" src="https://github.com/user-attachments/assets/125e038f-49c0-492a-b6d8-24ccc1277346" />
