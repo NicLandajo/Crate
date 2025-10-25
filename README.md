@@ -10,12 +10,12 @@ Forget about creating cache images in your OS explorer, Crate does everything fo
 
 Crate is a set of Python scripts designed to work with F3D, a fast and minimalist 3D viewer, to provide asset browsing capabilities for splats and geometry in Nuke.
 #
-
+Check playlist of videos here! https://www.youtube.com/playlist?list=PLPqEIUVfnnz6pt2Bg8_i-BTS6PeyLD2nX
+#
 <img width="1872" height="992" alt="crate1" src="https://github.com/user-attachments/assets/da0c2b57-c42b-4b09-9b21-9cea0b3c299b" />
-<img width="1870" height="1001" alt="crate2" src="https://github.com/user-attachments/assets/19561e44-c189-4827-a163-1fdf9b3e3a17" />
 <img width="1874" height="999" alt="crate3" src="https://github.com/user-attachments/assets/bbbe68fe-96b5-47fa-8f20-4a7867bba6fb" />
 <img width="1871" height="998" alt="crate4" src="https://github.com/user-attachments/assets/089dc71d-cc8b-421a-a352-29494d075832" />
-
+<img width="1870" height="1001" alt="crate2" src="https://github.com/user-attachments/assets/19561e44-c189-4827-a163-1fdf9b3e3a17" />
 #
 Installation: please read Crate v1.0 installation intructions.txt
 #
@@ -28,8 +28,6 @@ Installation: please read Crate v1.0 installation intructions.txt
 🪲 Report any bugs you come across
 
 📄 Contribute improvements
-#
-Check playlist of videos here! https://www.youtube.com/playlist?list=PLPqEIUVfnnz6pt2Bg8_i-BTS6PeyLD2nX
 #
 We’re seeking contributors to expand Crate, to other VFX software such as Maya, Houdini, Blender, Modo, 3DEqualizer, and any Python-based platform.
 
