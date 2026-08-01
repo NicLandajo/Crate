@@ -180,6 +180,6 @@ we are available for dedicated support, custom module development, and library m
 From coding bespoke pipeline tools and custom search behaviors to organizing, migrating,
 and building out massive, tidy asset libraries from scratch, we can help you maximize Crate’s potential.
 
-Let us handle the pipeline hygiene and customization so you can focus entirely on the creative work.
+Let us handle the maintenance and workflow customization in Crate so you can focus entirely on creative work.
 
 
