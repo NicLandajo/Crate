@@ -7,7 +7,7 @@
 </h3>
 
 <h3 style="font-size: 1.5em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
-  1) Please read "crate_manual_library_organization.md" first
+  1) Please read "crate_manual_library_organization.md" recommendation first
 </h3>
 
 <h3 style="font-size: 1.5em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
