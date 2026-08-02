@@ -44,22 +44,24 @@ Your Crate Engines folder should look like this:
 </blockquote>
 
 
-<h3 style="font-size: 30em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
- Crate v2.0.0 — First Install
+<h3 style="font-size: 1.5em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
+  2) Download Crate release and connect to pipeline
+</h3>
 
-1. Copy the folder. Place the crate_2.0.0 folder on a network location every Nuke workstation can read, e.g. \\YourServer\pipeline\nuke\crate_2.0.0.
 
-2. Register it in Nuke. Add this line to your studio's init.py:
+1.1. Copy the folder. Place the crate_2.0.0 folder on a network location every Nuke workstation can read, e.g. \\YourServer\pipeline\nuke\crate_2.0.0.
+
+1.2. Register it in Nuke. Add this line to your studio's init.py:
 
 python
 nuke.pluginAddPath("\\\\YourServer\\pipeline\\nuke\\crate_2.0.0")
 
-3. Launch Nuke — and claim your install. On first launch, Crate detects that no Curators exist yet and shows a "Welcome to Crate" dialog. If you are the asset manager or pipeline lead, press Claim as Curator — this registers your username with full access. (Anyone else should simply close the dialog; they remain read-only Visitors and the prompt will keep appearing at each launch until a Curator claims.)
+1.3. Launch Nuke — and claim your install. On first launch, Crate detects that no Curators exist yet and shows a "Welcome to Crate" dialog. If you are the asset manager or pipeline lead, press Claim as Curator — this registers your username with full access. (Anyone else should simply close the dialog; they remain read-only Visitors and the prompt will keep appearing at each launch until a Curator claims.)
 
-4. Prepare Crate while it's locked. Claiming automatically locks Crate for all users — so you can set it up safely before anyone sees it. Open Crate from Nuke's Pane menu and configure everything in Settings: asset Libraries and their cache folders, image engines (F3D / ImageMagick / FFmpeg), the users data path, Show and Templates folders, and any additional Curators.
+1.4. Prepare Crate while it's locked. Claiming automatically locks Crate for all users — so you can set it up safely before anyone sees it. Open Crate from Nuke's Pane menu and configure everything in Settings: asset Libraries and their cache folders, image engines (F3D / ImageMagick / FFmpeg), the users data path, Show and Templates folders, and any additional Curators.
 
-5. Unlock and go live. When configuration is done, release the lock from Settings → Engines. Crate is now live for the whole pipeline: Curators manage content, everyone else browses as Visitors.
-</h3>
+1.5. Unlock and go live. When configuration is done, release the lock from Settings → Engines. Crate is now live for the whole pipeline: Curators manage content, everyone else browses as Visitors.
+
 
 # ABOUT CRATE
 
