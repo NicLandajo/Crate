@@ -60,7 +60,11 @@ nuke.pluginAddPath("\\\\YourServer\\pipeline\\nuke\\crate_2.0.0")
 
 2.4. Prepare Crate while it's locked. Claiming automatically locks Crate for all users — so you can set it up safely before anyone sees it. Open Crate from Nuke's Pane menu and configure everything in Settings: asset Libraries and their cache folders, image engines (F3D / ImageMagick / FFmpeg), the users data path, Show and Templates folders, and any additional Curators.
 
-2.5. Unlock and go live. When configuration is done, release the lock from Settings → Engines. Crate is now live for the whole pipeline: Curators manage content, everyone else browses as Visitors.
+2.5. Go to Settings and connect the Crate engines to the location where you placed them.
+
+2.6. Continue to setup Crate modules and all the settings.
+
+2.7. Unlock and go live. When configuration is done, release the lock from Settings. Crate is now live for the whole pipeline: Curators manage content, everyone else browses as Visitors.
 
 
 # ABOUT CRATE
