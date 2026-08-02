@@ -2,7 +2,9 @@
 
 # CRATE 2 - Not released yet
 
-Please read crate_manual_library_organization.md first
+Please read "crate_manual_library_organization.md" first
+
+#
 
 <h3 style="font-size: 30em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
   Building your Crate - 2 Steps Quick Install
