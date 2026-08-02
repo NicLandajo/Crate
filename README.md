@@ -1,6 +1,6 @@
 <img width="1009" height="201" alt="cratelogo" src="https://github.com/user-attachments/assets/37514f9a-b08d-40eb-8cd1-fba917e85e9d" />
 
-# CRATE 2
+# CRATE 2 - Not released yet
 
 <h3 style="font-size: 30em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
   Building your Crate - 3 Steps
@@ -45,16 +45,20 @@ Your Crate Engines folder should look like this:
 
 
 <h3 style="font-size: 30em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
-  2) Nuke pipe
-</h3>
+ Crate v2.0.0 — First Install
 
-Make a designated init.py in your pipe to call and launch Crate with Nuke
-<pre>
-nuke.pluginAddPath("path to Crate´s menu.py living inside Crate´s folder")
-   </pre>
+1. Copy the folder. Place the crate_2.0.0 folder on a network location every Nuke workstation can read, e.g. \\YourServer\pipeline\nuke\crate_2.0.0.
 
-<h3 style="font-size: 30em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
-  3) Crate v2.0.0 --in progress--
+2. Register it in Nuke. Add this line to your studio's init.py:
+
+python
+nuke.pluginAddPath("\\\\YourServer\\pipeline\\nuke\\crate_2.0.0")
+
+3. Launch Nuke — and claim your install. On first launch, Crate detects that no Curators exist yet and shows a "Welcome to Crate" dialog. If you are the asset manager or pipeline lead, press Claim as Curator — this registers your username with full access. (Anyone else should simply close the dialog; they remain read-only Visitors and the prompt will keep appearing at each launch until a Curator claims.)
+
+4. Prepare Crate while it's locked. Claiming automatically locks Crate for all users — so you can set it up safely before anyone sees it. Open Crate from Nuke's Pane menu and configure everything in Settings: asset Libraries and their cache folders, image engines (F3D / ImageMagick / FFmpeg), the users data path, Show and Templates folders, and any additional Curators.
+
+5. Unlock and go live. When configuration is done, release the lock from Settings → Engines. Crate is now live for the whole pipeline: Curators manage content, everyone else browses as Visitors.
 </h3>
 
 # ABOUT CRATE
