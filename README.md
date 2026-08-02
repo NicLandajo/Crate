@@ -2,16 +2,16 @@
 
 # CRATE 2 - Not released yet
 
-Please read "crate_manual_library_organization.md" first
-
-#
-
 <h3 style="font-size: 30em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
-  Building your Crate - 2 Steps Quick Install
+  Building your Crate - 3 Steps Quick Install
 </h3>
 
 <h3 style="font-size: 1.5em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
-  1) Download Crate Engines and recommended plugins/tools from
+  1) Please read "crate_manual_library_organization.md" first
+</h3>
+
+<h3 style="font-size: 1.5em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
+  2) Download Crate Engines and recommended plugins/tools from
 </h3>
 
 link 1 Crate Image Engines https://drive.google.com/file/d/1aTyaviI9aqxl9kP2Epu1HIMULeY7qVvX/view?usp=sharing
@@ -49,27 +49,27 @@ Your Crate Engines folder should look like this:
 
 
 <h3 style="font-size: 1.5em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
-  2) Download Crate release and connect to pipeline
+  3) Download Crate release and connect to pipeline
 </h3>
 
 
-2.1. Download Crate release. Place the crate_2.0.0 folder on a network location every Nuke workstation can read, e.g. \\YourServer\pipeline\nuke\crate_2.0.0.
+3.1. Download Crate release. Place the crate_2.0.0 folder on a network location every Nuke workstation can read, e.g. \\YourServer\pipeline\nuke\crate_2.0.0.
 
-2.2. Register it in Nuke. Add this line to your studio's init.py:
+3.2. Register it in Nuke. Add this line to your studio's init.py:
 
 nuke.pluginAddPath("\\\\YourServer\\pipeline\\nuke\\crate_2.0.0")
 
-2.3. Launch Nuke and claim your install. On first launch, Crate detects that no Curators exist yet and shows a "Welcome to Crate" dialog. If you are the asset manager or pipeline lead, press Claim as Curator, this registers your username with full access.
+3.3. Launch Nuke and claim your install. On first launch, Crate detects that no Curators exist yet and shows a "Welcome to Crate" dialog. If you are the asset manager or pipeline lead, press Claim as Curator, this registers your username with full access.
 
-2.4. Prepare Crate while it's locked. Claiming automatically locks Crate for all users, so you can set it up safely before anyone sees it. Open Crate from Nuke's Pane menu and configure everything in Settings: asset Libraries and their cache folders, image engines (Go to Settings and connect the Crate engines to the location where you placed them), the users data path, Discover and Templates, and any additional Curators.
+3.4. Prepare Crate while it's locked. Claiming automatically locks Crate for all users, so you can set it up safely before anyone sees it. Open Crate from Nuke's Pane menu and configure everything in Settings: asset Libraries and their cache folders, image engines (Go to Settings and connect the Crate engines to the location where you placed them), the users data path, Discover and Templates, and any additional Curators.
 
-2.5. Although Crate is intuitive, we recommend reading the user manual at this point; click on Settings/User Manual.
+3.5. Although Crate is intuitive, we recommend reading the user manual at this point; click on Settings/User Manual.
 
-2.6. Continue to setup Crate modules and all the settings.
+3.6. Continue to setup Crate modules and all the settings.
 
-2.7. Try out Crate's locked mode for a few days to ensure everything works as expected.
+3.7. Try out Crate's locked mode for a few days to ensure everything works as expected.
 
-2.8. Unlock and go live. When configuration is done, release the lock from Settings. Crate is now live for the whole pipeline: Curators manage content, everyone else browses as Visitors.
+3.8. Unlock and go live. When configuration is done, release the lock from Settings. Crate is now live for the whole pipeline: Curators manage content, everyone else browses as Visitors.
     Crate will now handle everything automatically, adding users to its database as they use it for the first time. Over the coming days and weeks, Crate’s charts and analytics will provide
     feedback on how everything is performing and whether any adjustments are needed.
 
