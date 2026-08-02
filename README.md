@@ -55,14 +55,19 @@ Your Crate Engines folder should look like this:
 
 nuke.pluginAddPath("\\\\YourServer\\pipeline\\nuke\\crate_2.0.0")
 
-2.3. Launch Nuke — and claim your install. On first launch, Crate detects that no Curators exist yet and shows a "Welcome to Crate" dialog. If you are the asset manager or pipeline lead, press Claim as Curator — this registers your username with full access. (Anyone else should simply close the dialog; they remain read-only Visitors and the prompt will keep appearing at each launch until a Curator claims.)
+2.3. Launch Nuke and claim your install. On first launch, Crate detects that no Curators exist yet and shows a "Welcome to Crate" dialog. If you are the asset manager or pipeline lead, press Claim as Curator, this registers your username with full access.
 
-2.4. Prepare Crate while it's locked. Claiming automatically locks Crate for all users — so you can set it up safely before anyone sees it. Open Crate from Nuke's Pane menu and configure everything in Settings: asset Libraries and their cache folders, image engines (Go to Settings and connect the Crate engines to the location where you placed them), the users data path, Show and Templates folders, and any additional Curators.
+2.4. Prepare Crate while it's locked. Claiming automatically locks Crate for all users, so you can set it up safely before anyone sees it. Open Crate from Nuke's Pane menu and configure everything in Settings: asset Libraries and their cache folders, image engines (Go to Settings and connect the Crate engines to the location where you placed them), the users data path, Discover and Templates, and any additional Curators.
 
-2.5. Continue to setup Crate modules and all the settings.
+2.5. Although Crate is intuitive, we recommend reading the user manual at this point; click on Settings/User Manual.
 
-2.6. Unlock and go live. When configuration is done, release the lock from Settings. Crate is now live for the whole pipeline: Curators manage content, everyone else browses as Visitors.
+2.6. Continue to setup Crate modules and all the settings.
 
+2.7. Try out Crate's locked mode for a few days to ensure everything works as expected.
+
+2.8. Unlock and go live. When configuration is done, release the lock from Settings. Crate is now live for the whole pipeline: Curators manage content, everyone else browses as Visitors.
+    Crate will now handle everything automatically, adding users to its database as they use it for the first time. Over the coming days and weeks, Crate’s charts and analytics will provide
+    feedback on how everything is performing and whether any adjustments are needed.
 
 # ABOUT CRATE
 
