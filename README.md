@@ -57,11 +57,11 @@ Your Crate Engines folder should look like this:
 
 3.2. Register it in Nuke. Add this line to your studio's init.py:
 
-nuke.pluginAddPath("\\\\YourServer\\pipeline\\nuke\\crate_2.0.0")
+     nuke.pluginAddPath("\\\\YourServer\\pipeline\\nuke\\crate_2.0.0")
 
-3.3. Launch Nuke and claim your install. On first launch, Crate detects that no Curators exist yet and shows a "Welcome to Crate" dialog. If you are the asset manager or pipeline lead, press Claim as Curator, this registers your username with full access.
+3.3. Launch Nuke and claim your install. On first launch, Crate detects that no Curators exist yet and shows a "Welcome to Crate" dialog. If you are the asset manager or pipeline lead, press Claim as Curator, this registers your username with full         access.
 
-3.4. Prepare Crate while it's locked. Claiming automatically locks Crate for all users, so you can set it up safely before anyone sees it. Open Crate from Nuke's Pane menu and configure everything in Settings: asset Libraries and their cache folders, image engines (Go to Settings and connect the Crate engines to the location where you placed them), the users data path, Discover and Templates, and any additional Curators.
+3.4. Prepare Crate while it's locked. Claiming automatically locks Crate for all users, so you can set it up safely before it´s used. Open Crate from Nuke's menu and configure everything from Settings: start with connecting Crate Engines by pointing       the paths to the location where you placed them.
 
 3.5. Although Crate is intuitive, we recommend reading the user manual at this point; click on Settings/User Manual.
 
