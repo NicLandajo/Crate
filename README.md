@@ -63,7 +63,7 @@ Your Crate Engines folder should look like this:
 
 3.4. Prepare Crate while it's locked. Claiming automatically locks Crate for all users, so you can set it up safely before it´s used. Open Crate from Nuke's menu and configure everything from Settings: start with connecting Crate Engines by pointing       the paths to the location where you placed them.
 
-3.5. Although Crate is intuitive, we recommend reading the user manual at this point; click on Settings/User Manual.
+3.5. Although Crate is intuitive, we recommend reading the user manual at this point; click on Settings/User Manual. It should be noted that this manual is primarily aimed at Curators, Pipe TDs, IT staff, and the like, rather than the casual user (such as a compositing artist who quickly opens Crate to grab an element and leave, The Visitor). We will cover the use of Crate for Visitors in future video tutorials, but the interface is very simple, and all users will be able to use it immediately without needing any introduction.
 
 3.6. Continue to setup Crate modules and all the settings.
 
