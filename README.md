@@ -181,12 +181,17 @@ https://superspl.at/
 
 # Crate Services
 
-Love Crate but short on time? Let us manage and customize your library setup.
+Love Crate but short on time? Let us organize and maintain your libraries for you.
 
-If your studio needs Crate to do something highly specific, we are available for dedicated support,
-custom module development, and library management.
-From coding bespoke pipeline tools and custom search behaviors to organizing, migrating,
-and building out massive, tidy asset libraries from scratch, we can help you maximize Crate’s potential.
+We can set up your folder structures, curate your asset collections, configure thumbnails, manage templates, and keep everything running smoothly — so your library stays clean, searchable, and ready when your team needs it.
+
+We can also help you build your library ahead of time — sourcing, creating, and preparing assets so that when a new show arrives, your team has what they need from day one instead of scrambling mid-production.
+
+If your studio needs something more specific — custom workflows, tailored configurations, or dedicated support — we're available for that too.
+
+Let us handle the organization and upkeep so you can focus entirely on creative work.
+
+---
 
 Let us handle the maintenance and workflow customization in Crate so you can focus entirely on creative work.
 
