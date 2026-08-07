@@ -183,11 +183,11 @@ https://superspl.at/
 
 Love Crate but short on time? Let us organize and maintain your libraries for you.
 
-We can set up your folder structures, curate your asset collections, configure thumbnails, manage templates, and keep everything running smoothly — so your library stays clean, searchable, and ready when your team needs it.
+We can set up your folder structures, curate your asset collections, configure thumbnails, manage templates, and keep everything running smoothly; so your library stays clean, searchable, and ready when your team needs it.
 
-We can also help you build your library ahead of time — sourcing, creating, and preparing assets so that when a new show arrives, your team has what they need from day one instead of scrambling mid-production.
+We can also help you build your library ahead of time, sourcing, creating, and preparing assets so that when a new show arrives, your team has what they need from day one instead of scrambling mid-production.
 
-If your studio needs something more specific — custom workflows, tailored configurations, or dedicated support — we're available for that too.
+If your studio needs something more specific like custom workflows, tailored configurations, or dedicated support, we're available for that too.
 
 Let us handle the organization and upkeep so you can focus entirely on creative work.
 
