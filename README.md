@@ -63,13 +63,15 @@ Your Crate Engines folder should look like this:
 
 3.4. Prepare Crate while it's locked. Claiming automatically locks Crate for all users, so you can set it up safely before it´s used. Open Crate from Nuke's menu and configure everything from Settings: start with connecting Crate Engines by pointing       the paths to the location where you placed them.
 
-3.5. Although Crate is intuitive, we recommend reading the user manual at this point; click on Settings/User Manual. It should be noted that this manual is primarily aimed at Curators, Pipe TDs, IT staff, and the like, rather than the casual user (such as a compositing artist who quickly opens Crate to grab an element and leave, The Visitor). We will cover the use of Crate for Visitors in future video tutorials, but the interface is very simple, and all users will be able to use it immediately without needing any introduction.
+3.5. Set up at least one library. You must do this first so that the subsequent use of Crate proceeds smoothly as it comes to life.
 
-3.6. Continue to setup Crate modules and all the settings.
+3.6. Although Crate is intuitive, we recommend reading the user manual at this point; click on Settings/User Manual. It should be noted that this manual is primarily aimed at Curators, Pipe TDs, IT staff, and the like, rather than the casual user (such as a compositing artist who quickly opens Crate to grab an element and leave, The Visitor). We will cover the use of Crate for Visitors in future video tutorials, but the interface is very simple, and all users will be able to use it immediately without needing any introduction.
 
-3.7. Try out Crate's locked mode for a few days to ensure everything works as expected.
+3.7. Continue to setup Crate modules and all the settings.
 
-3.8. Unlock and go live. When configuration is done, release the lock from Settings. Crate is now live for the whole pipeline: Curators manage content, everyone else browses as Visitors.
+3.8. Try out Crate's locked mode for a few days to ensure everything works as expected.
+
+3.9. Unlock and go live. When configuration is done, release the lock from Settings. Crate is now live for the whole pipeline: Curators manage content, everyone else browses as Visitors.
     Crate will now handle everything automatically, adding users to its database as they use it for the first time. Over the coming days and weeks, Crate’s charts and analytics will provide
     feedback on how everything is performing and whether any adjustments are needed.
 
