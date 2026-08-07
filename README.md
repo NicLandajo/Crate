@@ -191,8 +191,4 @@ If your studio needs something more specific — custom workflows, tailored conf
 
 Let us handle the organization and upkeep so you can focus entirely on creative work.
 
----
-
-Let us handle the maintenance and workflow customization in Crate so you can focus entirely on creative work.
-
 
