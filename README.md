@@ -110,7 +110,14 @@ FFmpeg, which Crate depends on, is LGPL-2.1+ at its core; the build included in 
 
 MediaInfo, which Crate depends on, is under the BSD 2-Clause License
 
-OpenImageIO, which Crate depends on, is under Apache License.
+OpenImageIO, which Crate depends on, is under the Apache-2.0 License
+(project: https://github.com/AcademySoftwareFoundation/OpenImageIO).
+The Windows binaries in the Crate Image Engines bundle are a community
+build (https://github.com/pitvfx/OpenImageIO), since ASWF does not
+publish official Windows binaries. The build bundles third-party
+components (Qt 6 under LGPL-3.0, Python under PSF, and others) under
+their own licenses — see the licensing note included alongside the
+engines bundle.
 
 Playcanvas SplatTransform - 3D Gaussian Splat Converter, which Crate depends on, is under MIT License.
 
