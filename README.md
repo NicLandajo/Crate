@@ -92,12 +92,6 @@ New studio professional tools, Curators vs Visitors access, user read and write 
 
 Library objects vs storage tiers it allows to have the thumbnails and animated previews on a separate cache. You might choose to locate the cache over ssd/nvme disk and the raw elements on an array or high capacity disks.
 
-## Learn & Deploy
-
-If the manual isn't enough and you'd like help getting Crate installed or set up, just reach out. I'm happy to jump on a call or help however I can, whether you're a student, a freelancer, or a studio.
-
-Nic at nicolas.landajo@gmail.com
-
 ## Licenses
 
 Crate is under Apache License.
@@ -187,16 +181,10 @@ Any inaccuracies in Crate's database are ours, not Vfx Camera Database and Match
 
 https://superspl.at/
 
-# Crate Services
+## Learn & Deploy
 
-Love Crate but short on time? Let us organize and maintain your libraries for you.
+If the manual isn't enough and you'd like help getting Crate installed or set up, just reach out. I'm happy to jump on a call or help however I can, whether you're a student, a freelancer, or a studio.
 
-We can set up your folder structures, curate your asset collections, configure thumbnails, manage templates, and keep everything running smoothly; so your library stays clean, searchable, and ready when your team needs it.
-
-We can also help you build your library ahead of time, sourcing, creating, and preparing assets so that when a new show arrives, your team has what they need from day one instead of scrambling mid-production.
-
-If your studio needs something more specific like custom workflows, tailored configurations, or dedicated support, we're available for that too.
-
-Let us handle the organization and upkeep so you can focus entirely on creative work.
+Let´s chat! nicolas.landajo@gmail.com
 
 
