@@ -185,6 +185,6 @@ https://superspl.at/
 
 If the manual isn't enough and you'd like help getting Crate installed or set up, just reach out. I'm happy to jump on a call or help however I can, whether you're a student, a freelancer, or a studio.
 
-Let´s chat! nicolas.landajo@gmail.com
+Let´s chat! write Nic at nicolas.landajo@gmail.com
 
 
