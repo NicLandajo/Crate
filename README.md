@@ -179,6 +179,9 @@ Any inaccuracies in Crate's database are ours, not Vfx Camera Database and Match
 
 https://superspl.at/
 
-#
+## Contributing
 
-Questions - Learning - Deployment: Nic Landajo - nicolas.landajo@gmail.com
+Crate is open source and free to use, modify, and adapt to your pipeline. If you build something meaningful on top of it, fix a problem, add a module, or improve performance, we would love to hear about it. Share your work with the community.
+
+## Questions - Learning - Deployment
+Nic Landajo - nicolas.landajo@gmail.com
