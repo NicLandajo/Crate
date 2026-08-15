@@ -78,8 +78,6 @@ Your Crate Engines folder should look like this:
 
 # ABOUT CRATE
 
-Our goal is to create a fast asset browser so native it feels like Nuke always had it.
-
 It´s the first 3D browser for Nuke that generates thumbnails from gaussian splats and geometry automatically for you without intervention.
 
 We´re are working to build a first long term solid foundation and allow users to update their Crate versions easily in the future.
