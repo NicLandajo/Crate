@@ -1,6 +1,6 @@
 <img width="1009" height="201" alt="cratelogo" src="https://github.com/user-attachments/assets/37514f9a-b08d-40eb-8cd1-fba917e85e9d" />
 
-# CRATE 2 - Not released yet
+# CRATE 2
 
 <h3 style="font-size: 30em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
   Building your Crate - 3 Steps Quick Install
