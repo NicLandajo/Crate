@@ -180,3 +180,9 @@ Any inaccuracies in Crate's database are ours, not Vfx Camera Database and Match
 </h3>
 
 https://superspl.at/
+
+## Known Issue — Occasional Nuke crashes during asset import
+
+Crate v2.0.0 may experience occasional Nuke crashes when importing assets into the node graph. The crash is an access violation inside Nuke's own node engine (DDImage.dll) that affects approximately 4% of import operations across both Nuke 16 and 17. It is not caused by Crate — the same files open without issue through Nuke's own File → Read menu. Any user who imports assets (double-click, right-click → Import, or drag into DAG) can encounter it, though in practice Curators see it more often because library building and curation involve far more imports per session than typical browsing. If you experience a crash, simply relaunch Nuke and continue working; no project data is lost. Save your Nuke scripts frequently during heavy import sessions. This issue has been reported to Foundry with crash dumps from both Nuke 16 and 17 and is tracked under their internal bug ID 616942. A future Nuke point release is expected to resolve it.
+
+Solutions are welcome on the ticket section
