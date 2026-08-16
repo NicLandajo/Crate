@@ -1,5 +1,10 @@
-2.0.0
+2.0.1
 
-Changelog
+Changelog:
 
-Instructions
+Library folders containing large numbers of image sequences and videos now load significantly faster on network drives. Previously, entering a folder with 100+ items could take 10 seconds or more as Crate made a separate network call for every file inside every subfolder to determine its type. This has been reduced to a single call per subfolder, bringing load times down to around 1 second for the same content. The improvement is most noticeable on shared network storage (mapped drives, NAS) where each individual file check added latency. No visual or functional changes, all card types and sequence detection behave exactly as before.
+
+
+Instructions:
+
+Replace menu.py in your Crate installation folder with the updated version. No other files change.
