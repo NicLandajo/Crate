@@ -173,12 +173,6 @@ We are genuinely grateful and the Camera module would not exist in its current f
 
 Any inaccuracies in Crate's database are ours, not Vfx Camera Database and Matchmove machine; corrections are welcome via the issue tracker, and significant ones will be reported back to the mentioned parent databases.
 
-<h3 style="font-size: 30em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
-  Recommended sites to download Gaussians splat for tests
-</h3>
-
-https://superspl.at/
-
 ## Contributing
 
 Crate is open source and free to use, modify, and adapt to your pipeline. If you build something meaningful on top of it, fix a problem, add a module, or improve performance, we would love to hear about it!
