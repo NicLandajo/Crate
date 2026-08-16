@@ -92,7 +92,7 @@ Library objects vs storage tiers it allows to have the thumbnails and animated p
 
 ## Updating Crate
 
-Check for updates using the Update button in Crate's Settings page, or visit the repository and open version.txt which lists the current version, what changed, and which files to replace. Most updates only affect menu.py, making the process a simple file swap with no risk to your libraries, carts, or user data.
+Check for updates using the Update button in Crate's Settings page, or visit the repository and open version.txt which lists the current version, what changed, and which files to replace. Most updates only affect very few files, making the process a simple file swap with no risk to your libraries, carts, or user data.
 
 ## Licenses
 
