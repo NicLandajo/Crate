@@ -90,6 +90,10 @@ New studio professional tools, Curators vs Visitors access, user read and write 
 
 Library objects vs storage tiers it allows to have the thumbnails and animated previews on a separate cache. You might choose to locate the cache over ssd/nvme disk and the raw elements on an array or high capacity disks.
 
+## Updating Crate
+
+Check for updates using the Update button in Crate's Settings page, or visit the repository and open version.txt which lists the current version, what changed, and which files to replace. Most updates only affect menu.py, making the process a simple file swap with no risk to your libraries, carts, or user data.
+
 ## Licenses
 
 Crate is under Apache License.
