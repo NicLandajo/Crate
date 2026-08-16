@@ -1,4 +1,4 @@
-<img width="1009" height="201" alt="cratelogo" src="https://github.com/user-attachments/assets/37514f9a-b08d-40eb-8cd1-fba917e85e9d" />
+<img width="1876" height="1060" alt="cratescreenshot" src="https://github.com/user-attachments/assets/c851db10-009e-4fe8-8008-a565a84e8233" />
 
 # CRATE 2
 
