@@ -92,7 +92,7 @@ Library objects vs storage tiers it allows to have the thumbnails and animated p
 
 ## Updating Crate
 
-Check for updates using the Update button in Crate's Settings page, or visit the repository and open version.txt which lists the current version, what changed, and which files to replace. Most updates only affect very few files, making the process a simple file swap with no risk to your libraries, carts, or user data.
+Check for updates using the Update button in Crate's Settings page, or visit the repository and open `version.txt` which lists the current version, what changed, and which files to replace. Most updates only affect very few files, making the process a simple file swap with no risk to your libraries, carts, or user data. We recommend duplicating your current Crate folder before updating. For example, keep your `crate_v2.0.0` folder untouched, name the duplicate `crate_v2.0.1`, and replace the affected files inside it. Then point your `init.py` to the new folder. This way you can always roll back to a previous version if needed.
 
 ## Licenses
 
