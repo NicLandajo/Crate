@@ -184,6 +184,10 @@ https://superspl.at/
 Crate is open source and free to use, modify, and adapt to your pipeline. If you build something meaningful on top of it, fix a problem, add a module, or improve performance, we would love to hear about it!
 
 ## Questions - Learning - Deployment
-We are happy to help students, freelancers, boutiques, and studios.
+
+We’re always happy to help students, freelancers, boutiques, and studios.
+Whether you need a quick tip, some feedback, or just want to bounce ideas around, feel free to reach out!
 
 Nic Landajo - nicolas.landajo@gmail.com
+
+#
