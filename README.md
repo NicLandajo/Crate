@@ -1,5 +1,3 @@
-<img width="1876" height="1060" alt="cratescreenshot" src="https://github.com/user-attachments/assets/c851db10-009e-4fe8-8008-a565a84e8233" />
-
 https://github.com/user-attachments/assets/aaee2a2f-bea6-4595-a81c-e368d24f92b3
 #
 
