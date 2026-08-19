@@ -67,6 +67,7 @@ menu.py
 crate_geo_panel.py
 crate_4mat_panel.py
 discover script panel/crate_script_panel.py
+version.txt
 ```
 
 The `crate_script_panel.py` goes inside the `discover script panel/` subfolder.
