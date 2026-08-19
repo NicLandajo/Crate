@@ -101,7 +101,7 @@ Crate is under Apache License.
 
 F3D, which Crate depends on, is licensed under the BSD 3-Clause License.
 
-ImageMagik, which Crate depends on, is licensed under the ImageMagick License (the "License").
+ImageMagick, which Crate depends on, is licensed under the ImageMagick License (the "License").
 
 FFmpeg, which Crate depends on, is LGPL-2.1+ at its core; the build included in the Crate Image Engines bundle is a gyan.dev full build, licensed GPL v3 (see the README and license inside the bundle).
 
