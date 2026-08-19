@@ -86,7 +86,6 @@ crate_logs.txt	                  1
 crate_nuke.txt	                  1
 crate_open_with.txt	            1
 crate_templates.txt	            1
-crate_users.txt	               1
 
 
 
