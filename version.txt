@@ -1,10 +1,80 @@
-2.0.1
-
-Changelog:
-
-Library folders containing large numbers of image sequences and videos now load significantly faster on network drives. Previously, entering a folder with 100+ items could take 10 seconds or more as Crate made a separate network call for every file inside every subfolder to determine its type. This has been reduced to a single call per subfolder, bringing load times down to around 1 second for the same content. The improvement is most noticeable on shared network storage (mapped drives, NAS) where each individual file check added latency. No visual or functional changes, all card types and sequence detection behave exactly as before.
+2.0.2
 
 
-Instructions:
+# Crate v2.0.2 — Changelog
 
-Replace menu.py in your Crate installation folder with the updated version. No other files change.
+**Release date:** August 2026
+**Previous version:** 2.0.1
+
+
+## What's Fixed
+
+### Panel Close Now Releases All Files (Windows)
+
+After running conversions in Crate's processing panels, source files remained
+locked by Nuke. Users could not cut, paste, rename, or delete those files in
+Discover or Windows Explorer without restarting Nuke entirely.
+
+**v2.0.2 guarantees that closing a panel fully releases every file it touched.**
+
+#### Files affected: 5
+
+| File | Changes |
+|---|---|
+| `menu.py` | All 13 panel close functions now call `_crate_cleanup` explicitly before widget destruction, instead of relying on Qt's `deleteLater` signal |
+| `crate_write_panel.py` | W-EXR, W-EXR-Q, W-MOV, W-MOV-Q — render functions use a disposable Read node per job so each file handle is released immediately after rendering. Cleanup functions use a mutable node list to prevent double-call errors |
+| `crate_geo_panel.py` | W-GEO — per-job temp nodes (ReadGeo2, WriteGeo, GeoImport, GeoExport) now clear file knobs before deletion. Cleanup uses a mutable node list to prevent double-call ValueError |
+| `crate_4mat_panel.py` | 4MAT — cleanup exposed as `_crate_cleanup` for explicit release. Mutable node list prevents double-call errors |
+| `discover script panel/crate_script_panel.py` | SCRIPT — `_purge_working_copy` now clears file knobs before deleting tagged nodes. Cleanup exposed as `_crate_cleanup` |
+
+#### What was happening
+
+Three things held Windows file handles open inside Nuke:
+
+1. **Read nodes** — when a Read node's file knob points at a file, Nuke keeps
+   the handle for the node's lifetime. Clearing the knob to `''` before deleting
+   the node forces immediate release.
+
+2. **Reused Read nodes in queues** — the batch queue panels (W-EXR-Q, W-MOV-Q)
+   reused a single Read node across all jobs. When the node switched from file 1
+   to file 2, Nuke's internal reader for file 1 was orphaned with its handle
+   still open. The only reliable release is `nuke.delete()` on the node that
+   opened it — so each job now creates and destroys its own disposable Read node.
+
+3. **Cleanup timing** — panel cleanup was connected to Qt's `panel.destroyed`
+   signal via `deleteLater()`, which is indirect and can be delayed indefinitely.
+   Close functions now call cleanup explicitly before widget destruction.
+
+#### Panels audited
+
+All 13 panels were audited. Six panels (IMG-C, CONTACT, SEQ-C, BATCH, VID-C,
+SPLAT-C) use no Nuke nodes and required no fix. The remaining seven were fixed
+as described above.
+
+
+## How to Install
+
+### Option 1 — Existing Crate users (updating from v2.0.1)
+
+If you already have Crate running, you only need to replace these 5 files.
+Close Nuke first.
+
+Copy these files into your Crate installation folder, replacing the originals:
+
+```
+crate_write_panel.py
+menu.py
+crate_geo_panel.py
+crate_4mat_panel.py
+discover script panel/crate_script_panel.py
+```
+
+The `crate_script_panel.py` goes inside the `discover script panel/` subfolder.
+All other files go in the Crate root folder next to the originals.
+
+Restart Nuke after replacing.
+
+### Option 2 — New installation
+
+If you are installing Crate for the first time, use the complete v2.0.2 release
+folder. It includes all fixes.
