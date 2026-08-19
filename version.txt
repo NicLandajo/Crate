@@ -69,11 +69,28 @@ crate_4mat_panel.py
 discover script panel/crate_script_panel.py
 version.txt
 ```
-
 The `crate_script_panel.py` goes inside the `discover script panel/` subfolder.
 All other files go in the Crate root folder next to the originals.
 
 Restart Nuke after replacing.
+
+If you want you can manualy update the 2.0.1 to 2.0.2 text in the config files (optional but neat):
+File	                          Line
+crate_access_credentials.txt	   1
+crate_curators_info.txt       	1
+crate_discover.txt	            1
+crate_engines.txt	               1
+crate_hide_prefixes.txt	         1
+crate_libraries.txt	            1
+crate_logs.txt	                  1
+crate_nuke.txt	                  1
+crate_open_with.txt	            1
+crate_templates.txt	            1
+crate_templates_data.txt	      1
+crate_update_check.txt	         1
+crate_users.txt	               1
+
+
 
 ### Option 2 — New installation
 
