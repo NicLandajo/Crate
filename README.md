@@ -82,7 +82,7 @@ Your Crate Engines folder should look like this:
 Always read the "version.txt" file for update/install instructions. Remember to backup your current version first (entire Crate folder and config files at all its locations) for easy rollback.
 Only then, once you have ensured that you can fully restore your previous version, should you proceed to update and connect the new version.
 
-# ABOUT CRATE
+# About Crate
 
 It´s the first 3D browser for Nuke that generates thumbnails from gaussian splats and geometry automatically for you without intervention.
 
