@@ -3,9 +3,7 @@
 https://github.com/user-attachments/assets/aaee2a2f-bea6-4595-a81c-e368d24f92b3
 #
 
-<h3 style="font-size: 30em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
-  Building your Crate - 3 Steps Quick Install
-</h3>
+# Building your Crate - 3 Steps Quick Install
 
 <h3 style="font-size: 1.5em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
   1) Please read "crate_manual_library_organization.md" recommendation first
