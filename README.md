@@ -77,6 +77,11 @@ Your Crate Engines folder should look like this:
     Crate will now handle everything automatically, adding users to its database as they use it for the first time. Over the coming days and weeks, Crate’s charts and analytics will provide
     feedback on how everything is performing and whether any adjustments are needed.
 
+# Update Crate to the latest version
+
+Always read the "version.txt" file for update/install instructions. Remember to backup your current version first (entire Crate folder and config files at all its locations) for easy rollback.
+Only then, once you have ensured that you can fully restore your previous version, should you proceed to update and connect the new version.
+
 # ABOUT CRATE
 
 It´s the first 3D browser for Nuke that generates thumbnails from gaussian splats and geometry automatically for you without intervention.
