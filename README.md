@@ -82,6 +82,8 @@ Your Crate Engines folder should look like this:
 Always read the "version.txt" file for update/install instructions. Remember to backup your current version first (entire Crate folder and config files at all its locations) for easy rollback.
 Only then, once you have ensured that you can fully restore your previous version, should you proceed to update and connect the new version.
 
+Check for updates using the Update button in Crate's Settings page.
+
 # About Crate
 
 It´s the first 3D browser for Nuke that generates thumbnails from gaussian splats and geometry automatically for you without intervention.
@@ -95,10 +97,6 @@ It´s compatible with PySide2 to PySide6 across Nuke 15 16 17, however, the full
 New studio professional tools, Curators vs Visitors access, user read and write privileges, user interface privileges according to role. 
 
 Library objects vs storage tiers it allows to have the thumbnails and animated previews on a separate cache. You might choose to locate the cache over ssd/nvme disk and the raw elements on an array or high capacity disks.
-
-## Updating Crate
-
-Check for updates using the Update button in Crate's Settings page, or visit the repository and open `version.txt` which lists the current version, what changed, and which files to replace. Most updates only affect very few files, making the process a simple file swap with no risk to your libraries, carts, or user data. We recommend duplicating your current Crate folder before updating. For example, keep your `crate_v2.0.0` folder untouched, name the duplicate `crate_v2.0.1`, and replace the affected files inside it. Then point your `init.py` to the new folder. This way you can always roll back to a previous version if needed.
 
 ## Licenses
 
