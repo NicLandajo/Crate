@@ -190,4 +190,6 @@ Whether you need a quick tip, some feedback, or just want to bounce ideas around
 
 Nic Landajo - nicolas.landajo@gmail.com
 
+Tutorial videos are being recorded.
+
 #
