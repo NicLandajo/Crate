@@ -3,6 +3,10 @@
 https://github.com/user-attachments/assets/aaee2a2f-bea6-4595-a81c-e368d24f92b3
 #
 
+Intro - Crate 2 First look Tour
+
+https://youtu.be/DI1a0VykNU8
+
 # Building your Crate - 3 Steps Quick Install
 
 <h3 style="font-size: 1.5em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
