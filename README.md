@@ -1,6 +1,4 @@
-# CRATE 2
-
-# First Look Tour [![Crate 2.0 — Intro Tour](https://img.youtube.com/vi/DI1a0VykNU8/maxresdefault.jpg)](https://youtu.be/DI1a0VykNU8)
+# CRATE 2 First Look Tour [![Crate 2.0 — Intro Tour](https://img.youtube.com/vi/DI1a0VykNU8/maxresdefault.jpg)](https://youtu.be/DI1a0VykNU8)
 
 # Building your Crate - 3 Steps Quick Install
 
