@@ -1,7 +1,5 @@
 # CRATE 2
 
-https://github.com/user-attachments/assets/aaee2a2f-bea6-4595-a81c-e368d24f92b3
-
 # Intro - Crate 2 First look Tour [![Crate 2.0 — Intro Tour](https://img.youtube.com/vi/DI1a0VykNU8/maxresdefault.jpg)](https://youtu.be/DI1a0VykNU8)
 
 # Building your Crate - 3 Steps Quick Install
