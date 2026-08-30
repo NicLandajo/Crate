@@ -187,7 +187,4 @@ We’re always happy to help students, freelancers, boutiques, and studios.
 Whether you need a quick tip, some feedback, or just want to bounce ideas around, feel free to reach out!
 
 Nic Landajo - nicolas.landajo@gmail.com
-
-Tutorial videos are being recorded.
-
 #
