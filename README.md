@@ -1,7 +1,7 @@
-# CRATE 2 Video tour
+# CRATE 2 for Nuke | Video tour
 [![Crate 2.0 — Intro Tour](https://img.youtube.com/vi/DI1a0VykNU8/maxresdefault.jpg)](https://youtu.be/DI1a0VykNU8)
 
-# Building your Crate - 3 Steps Quick Install
+# Building your Crate | 3 Steps Quick Install
 
 <h3 style="font-size: 1.5em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
   1) Please read "crate_manual_library_organization.md" recommendation first
