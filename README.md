@@ -50,11 +50,11 @@ Your Crate Engines folder should look like this:
 </h3>
 
 
-3.1. Download Crate release. Place the crate_2.0.0 folder on a network location every Nuke workstation can read, e.g. \\YourServer\pipeline\nuke\crate_2.0.0.
+3.1. Download Crate release. Place the crate_2.#.# folder on a network location every Nuke workstation can read, e.g. \\YourServer\pipeline\nuke\crate_2.#.#
 
 3.2. Register it in Nuke. Add this line to your studio's init.py:
 
-     nuke.pluginAddPath("\\\\YourServer\\pipeline\\nuke\\crate_2.0.0")
+     nuke.pluginAddPath("\\\\YourServer\\pipeline\\nuke\\crate_2.#.#")
 
 3.3. Launch Nuke and claim your install. On first launch, Crate detects that no Curators exist yet and shows a "Welcome to Crate" dialog. If you are the asset manager or pipeline lead, press Claim as Curator, this registers your username with full         access.
 
