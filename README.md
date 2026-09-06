@@ -183,8 +183,5 @@ Crate is open source and free to use, modify, and adapt to your pipeline. If you
 
 ## Questions - Learning - Deployment
 
-We’re always happy to help students, freelancers, boutiques, and studios.
 Whether you need a quick tip, some feedback, or just want to bounce ideas around, feel free to reach out!
-
-Nic Landajo - nicolas.landajo@gmail.com
 #
