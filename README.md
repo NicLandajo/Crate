@@ -176,12 +176,4 @@ Crate's Camera module ships with a reference database of digital cinema, broadca
 We are genuinely grateful and the Camera module would not exist in its current form without Tony D'Agostino and Matchmove machine work. If you find this data useful, please consider [supporting VFXCamDB](https://vfxcamdb.com/donate/) and [supporting Matchmove machine](https://camdb.matchmovemachine.com/donate) directly.
 
 Any inaccuracies in Crate's database are ours, not Vfx Camera Database and Matchmove machine; corrections are welcome via the issue tracker, and significant ones will be reported back to the mentioned parent databases.
-
-## Contributing
-
-Crate is open source and free to use, modify, and adapt to your pipeline. If you build something meaningful on top of it, fix a problem, add a module, or improve performance, we would love to hear about it!
-
-## Questions - Learning - Deployment
-
-Whether you need a quick tip, some feedback, or just want to bounce ideas around, feel free to reach out!
 #
