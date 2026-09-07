@@ -104,7 +104,13 @@ F3D, which Crate depends on, is licensed under the BSD 3-Clause License.
 
 ImageMagick, which Crate depends on, is licensed under the ImageMagick License (the "License").
 
-FFmpeg, which Crate depends on, is LGPL-2.1+ at its core; the build included in the Crate Image Engines bundle is a gyan.dev full build, licensed GPL v3 (see the README and license inside the bundle).
+FFmpeg, which Crate depends on, is distributed here as the `full_build` from
+gyan.dev, licensed under the **GNU General Public License v3**. This build
+includes GPL components (libx264, libx265, frei0r).
+Corresponding source: https://github.com/FFmpeg/FFmpeg/commit/33b215d155
+GPL v3 applies to the FFmpeg binary only. Crate is Apache 2.0 and invokes
+FFmpeg as a separate process, which does not create a combined work. You may
+point Crate at any FFmpeg build you prefer via `crate_engines.txt`.
 
 MediaInfo, which Crate depends on, is under the BSD 2-Clause License
 
