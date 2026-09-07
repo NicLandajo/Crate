@@ -1,6 +1,5 @@
 # CRATE 2 for Nuke | Feature Tour Video
 [![Crate 2.0 — Intro Tour](https://img.youtube.com/vi/DI1a0VykNU8/maxresdefault.jpg)](https://youtu.be/DI1a0VykNU8)
-Apache 2.0 · [Third-party licenses](THIRD_PARTY_LICENSES.md)
 
 # About Crate
 
@@ -14,6 +13,7 @@ Libraries and their caches are separate, so you can keep thumbnails and animated
 
 Compatible with Nuke 15, 16 and 17, on PySide2 and PySide6. Development and testing focused on Nuke 17.
 
+Apache 2.0 · [Third-party licenses](THIRD_PARTY_LICENSES.md)
 
 # Building your Crate | 3 Steps Quick Install
 
