@@ -11,13 +11,33 @@ You (the user) assume all responsibility for the use of these tools. Before usin
 Important: While some of these tools are completely free for all uses, others may have strict restrictions regarding commercial use, modification, or redistribution. The developer of this Apache 2.0 tool does not guarantee that all bundled software is cleared for commercial use in your specific region or industry.
 
 3. Third-Party Software License References
-To review the licenses, please check the respective application folders or visit their official websites:
 
-- Bulk Rename Utility: Free for personal use (Commercial license may be required)
-- DJV: Open Source (BSD-style)
-- LizardQ Viewer: Proprietary / Freeware
-- Notepad++: Open Source (GPL)
-- OpenRV: Open Source (Apache 2.0 / ASWF)
-- tev (The HDR Viewer): Open Source (MIT)
-- VLC Media Player: Open Source (GPL / LGPL)
-- XnView MP: Free for private/educational use (Requires purchase for commercial use)
+Licenses are included in each application's folder. Source code for the
+GPL-licensed tools is available from the projects themselves:
+
+- Bulk Rename Utility  Proprietary freeware. Free for personal/home use.
+                       Commercial use requires a licence from TGRMN Software.
+                       https://www.bulkrenameutility.co.uk
+
+- DJV                  BSD-3-Clause
+                       https://github.com/darbyjohnston/DJV
+
+- LizardQ Viewer       Proprietary freeware (vendor-supplied)
+                       https://www.lizardq.com
+
+- Notepad++            GPLv3 or later
+                       https://github.com/notepad-plus-plus/notepad-plus-plus
+
+- OpenRV               Apache-2.0 (Academy Software Foundation)
+                       https://github.com/AcademySoftwareFoundation/OpenRV
+
+- tev                  GPLv3 (v1.31 and later; earlier versions BSD-3-Clause)
+                       https://github.com/Tom94/tev
+
+- VLC media player     GPLv2+ (application); libVLC core is LGPL-2.1+
+                       https://code.videolan.org/videolan/vlc
+
+- XnView MP            Proprietary freeware. Free for private, public-entity
+                       and educational use. Commercial use requires a licence
+                       from XnSoft.
+                       https://www.xnview.com/en/xnviewmp/
