@@ -53,10 +53,14 @@ By using Crate you acknowledge and accept the following:
      does not contain sensitive material that would be exposed via
      the cache to other users sharing the same cache path.
 
-  4. Crate does not transmit data over the network. Any network
-     activity observed during use of Crate originates from Nuke
-     itself or from third-party tools that Crate has invoked at your
-     request, not from Crate's own code.
+  4. Crate does not transmit user data, asset content, or telemetry to
+     the author or to any third party. Crate reads and writes only to
+     file paths you configure, which may include network shares on your
+     own infrastructure. The Update feature checks for new versions only
+     when you invoke it from Settings. No data is sent automatically or
+     in the background. Any other network activity observed during use
+     originates from Nuke itself or from third-party tools that Crate
+     has invoked at your request, not from Crate's own code.
 
   5. You are responsible for the legality of the assets you browse,
      import, modify, or distribute using Crate. Crate does not perform
@@ -77,9 +81,10 @@ THIRD-PARTY SOFTWARE
 Crate invokes the following third-party command-line tools and applications
 as external processes. Crate does NOT statically link to, embed, or
 incorporate the source code of any of these tools. They are independent
-programs that the end user must install and license separately. Crate
-communicates with them only through standard subprocess calls (command-line
-arguments, file I/O, and process exit codes).
+programs, which the end user may install separately or obtain from the
+engine bundle offered by this project (see the README for download links).
+Crate communicates with them only through standard subprocess calls
+(command-line arguments, file I/O, and process exit codes).
 
 Because Crate uses these tools as separate processes — not as linked
 libraries — Crate is not a derivative work of those programs under their
@@ -100,20 +105,36 @@ THUMBNAIL & MEDIA ENGINES (required for full functionality)
 
 F3D, which Crate depends on, is licensed under the BSD 3-Clause License.
 
-ImageMagick, which Crate depends on, is licensed under the ImageMagick License (the "License").
+ImageMagick, which Crate depends on, is licensed under the ImageMagick
+License (the "License").
 
-FFmpeg, which Crate depends on, is distributed here as the full_build from gyan.dev, licensed under the GNU General Public License v3. This build includes GPL components (libx264, libx265, frei0r). Corresponding source: https://github.com/FFmpeg/FFmpeg/commit/33b215d155 GPL v3 applies to the FFmpeg binary only. Crate is Apache 2.0 and invokes FFmpeg as a separate process, which does not create a combined work. You may point Crate at any FFmpeg build you prefer via crate_engines.txt.
+FFmpeg, which Crate depends on, is distributed in the Crate engine bundle
+as the full_build from gyan.dev, licensed under the GNU General Public
+License v3. This build includes GPL components (libx264, libx265, frei0r).
+Corresponding source:
+https://github.com/FFmpeg/FFmpeg/commit/33b215d155
+GPL v3 applies to the FFmpeg binary only. Crate is Apache 2.0 and invokes
+FFmpeg as a separate process, which does not create a combined work. You
+may point Crate at any FFmpeg build you prefer via crate_engines.txt.
 
-MediaInfo, which Crate depends on, is under the BSD 2-Clause License
+MediaInfo, which Crate depends on, is under the BSD 2-Clause License.
 
-OpenImageIO, which Crate depends on, is under the Apache-2.0 License (project: https://github.com/AcademySoftwareFoundation/OpenImageIO). The Windows binaries in the Crate Image Engines bundle are a community build (https://github.com/pitvfx/OpenImageIO), since ASWF does not publish official Windows binaries. The build bundles third-party components (Qt 6 under LGPL-3.0, Python under PSF, and others) under their own licenses, see the licensing note included alongside the engines bundle.
+OpenImageIO, which Crate depends on, is under the Apache-2.0 License
+(project: https://github.com/AcademySoftwareFoundation/OpenImageIO). The
+Windows binaries in the Crate Image Engines bundle are a community build
+(https://github.com/pitvfx/OpenImageIO), since ASWF does not publish
+official Windows binaries. That build bundles third-party components
+(Qt 6 under LGPL-3.0, Python under PSF, and others) under their own
+licences — see the licensing note included alongside the engines bundle.
 
-Playcanvas SplatTransform - 3D Gaussian Splat Converter, which Crate depends on, is under MIT License.
+PlayCanvas SplatTransform — 3D Gaussian Splat Converter, which Crate
+depends on, is under the MIT License.
 
-Splat , WebGL 3D Gaussian Splat Viewer, which Crate depends on, is under MIT License.
+Node.js, bundled in the engine package as the JavaScript runtime required
+by SplatTransform, is under the MIT License. Node.js includes third-party
+components (OpenSSL, V8, libuv and others) under their own licences; see
+the licence file distributed with the Node.js binary.
 
-3dgsconverter, a Python command-line utility for converting Splats, which Crate depends on, is under MIT License.
-	
 --------------------------------------------------------------------------------
 "OPEN WITH" PLUGINS (optional external viewers and tools)
 --------------------------------------------------------------------------------
@@ -178,13 +199,16 @@ each tool and complying with its licence.
     Use: HDR / OpenEXR inspection, false-colour comparison, pixel
     peeping.
 
-others you can add but not yet fully integrated:
+Web-based tools that can be linked from Crate but are not integrated:
 
-SuperSplat - Online splat editor server using local gpu https://superspl.at/editor
+  SuperSplat — online splat editor, runs on the local GPU
+    https://superspl.at/editor
 
-SuperSplat - Online splat file family converter https://superspl.at/convert
+  SuperSplat — online splat format converter
+    https://superspl.at/convert
 
-F3D WebViewer - Online splat viewer server using local gpu https://f3d.app/viewer/
+  F3D WebViewer — online splat viewer, runs on the local GPU
+    https://f3d.app/viewer/
 
 --------------------------------------------------------------------------------
 HOST APPLICATION AND IN-PROCESS LIBRARIES
@@ -193,26 +217,19 @@ HOST APPLICATION AND IN-PROCESS LIBRARIES
 The following are loaded in-process by Crate via the user's Nuke
 installation. Crate does not redistribute or modify any of them.
 
-  Nuke / NukeX (The Foundry)
-    Crate is a script that runs inside Nuke. It uses Nuke's Python API
-    (the `nuke` module) and Qt bindings (PySide2 on Nuke 15, PySide6
-    on Nuke 16+). Nuke is proprietary commercial software, licensed by
-    The Foundry. A valid Nuke licence is required to run Crate. Crate
-    does not redistribute, modify, or bundle Nuke.
-
   Qt for Python (PySide2 / PySide6)
     https://www.qt.io/qt-for-python
     Licence: GNU Lesser General Public License v3 (LGPLv3) or
     commercial. Crate uses whichever PySide binding is provided by
     Nuke and does not redistribute Qt.
-	
+
 ================================================================================
 INCLUDED CODE FROM THIRD-PARTY PROJECTS
 ================================================================================
 
-Crate's PLY-to-SPLAT converter (`crate_ply_to_splat.py`) is derived
-from the `convert.py` script in the antimatter15/splat project, used
-under the MIT License.
+Crate's PLY-to-SPLAT converter (crate_ply_to_splat.py) is derived from the
+convert.py script in the antimatter15/splat project, used under the MIT
+License.
 
   splat — WebGL 3D Gaussian Splat Viewer
     https://github.com/antimatter15/splat
@@ -221,12 +238,15 @@ under the MIT License.
     A copy of the original MIT licence is included in
     third_party/antimatter15-splat/LICENSE.
 
+Crate's PLY-to-KSPLAT converter (crate_ply_to_ksplat.py) is derived from
+3dgsconverter, used under the MIT License.
 
-3dgsconverter
-A versatile, high-performance tool for converting between various 3D Gaussian Splatting formats by Francesco Fugazzi
-
-https://github.com/francescofugazzi/3dgsconverter
-Licence: MIT
+  3dgsconverter — 3D Gaussian Splatting format converter
+    https://github.com/francescofugazzi/3dgsconverter
+    Copyright (c) Francesco Fugazzi
+    Licence: MIT
+    A copy of the original MIT licence is included in
+    third_party/3dgsconverter/LICENSE.
 
 ================================================================================
 CAMERA DATABASE
@@ -235,23 +255,30 @@ CAMERA DATABASE
 Crate includes a camera database feature (Settings → Camera Database)
 that allows users to maintain a personal database of camera sensor
 specifications for use with Nuke's Camera nodes.
+
 The Camera module ships with a reference database of digital cinema,
 broadcast, drone, mobile, and film camera sensor specifications. This
-data is derived in part from VFXCamDB (https://vfxcamdb.com/) maintained
-by Tony D'Agostino and Matchmove machine (https://camdb.matchmovemachine.com/)
-maintained by Matchmove machine, both of whom have granted permission for
-their databases to be used in Crate.
-We are genuinely grateful and the Camera module would not exist in its
-current form without the work of Tony D'Agostino and Matchmove machine.
+data is derived in part from VFXCamDB (https://vfxcamdb.com/) and Matchmove Machine
+(https://camdb.matchmovemachine.com/), both of whom have granted
+permission for their databases to be used in Crate.
+
+The Camera module would not exist in its
+current form without the work of VFXCamDB and Matchmove Machine.
 If you find this data useful, please consider supporting VFXCamDB
-(https://vfxcamdb.com/donate/) and supporting Matchmove machine
+(https://vfxcamdb.com/donate/) and Matchmove Machine
 (https://camdb.matchmovemachine.com/donate) directly.
+
 Any inaccuracies in Crate's database are ours, not VFXCamDB's or
-Matchmove machine's; corrections are welcome via the issue tracker at
+Matchmove Machine's. Corrections are welcome via the issue tracker at
 https://github.com/CrateTools/CrateCamDB, and significant corrections
 will be reported back to the parent databases.
-Users may extend, edit, or replace the camera database freely. The
-camera database is provided under the same Apache 2.0 licence as Crate.
+
+Users may extend, edit, or replace the camera database freely. Crate's
+own database files are provided under the same Apache 2.0 licence as
+Crate. Note that this licence covers Crate's compilation and formatting
+of the data; if you intend to reuse the underlying camera data in another
+project, please contact VFXCamDB and Matchmove Machine directly rather
+than assuming the permission granted to Crate extends to you.
 
 ================================================================================
 NO RELATIONSHIP WITH THIRD PARTIES
