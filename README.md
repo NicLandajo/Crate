@@ -40,7 +40,7 @@ Your Crate Engines folder should look like this:
     ├── ffmpeg/
     ├── imagemagick/
     ├── mediainfo/
-    └── OpenImageIO/
+    ├── OpenImageIO/
     └── splat-transform/ 
     </pre>
 
@@ -74,7 +74,7 @@ macOS and Linux are not supported yet. The path is short, though: every engine p
 
 3.3. Launch Nuke and claim your install. On first launch, Crate detects that no Curators exist yet and shows a "Welcome to Crate" dialog. If you are the asset manager or pipeline lead, press Claim as Curator, this registers your username with full         access.
 
-3.4. Prepare Crate while it's locked. Claiming automatically locks Crate for all users, so you can set it up safely before it´s used. Open Crate from Nuke's menu and configure everything from Settings: start with connecting Crate Engines by pointing       the paths to the location where you placed them.
+3.4. Prepare Crate while it's locked. Claiming automatically locks Crate for all users, so you can set it up safely before it's used. Open Crate from Nuke's menu and configure everything from Settings: start with connecting Crate Engines by pointing       the paths to the location where you placed them.
 
 3.5. Set up at least one library. You must do this first so that the subsequent use of Crate proceeds smoothly as it comes to life.
      Cache tip: Give each library its own dedicated cache folder named after the library (e.g. Crate Caches/Libraries/Smoke)
@@ -86,7 +86,7 @@ macOS and Linux are not supported yet. The path is short, though: every engine p
 3.8. Try out Crate's locked mode for a few days to ensure everything works as expected.
 
 3.9. Unlock and go live. When configuration is done, release the lock from Settings. Crate is now live for the whole pipeline: Curators manage content, everyone else browses as Visitors.
-    Crate will now handle everything automatically, adding users to its database as they use it for the first time. Over the coming days and weeks, Crate’s charts and analytics will provide
+    Crate will now handle everything automatically, adding users to its database as they use it for the first time. Over the coming days and weeks, Crate's charts and analytics will provide
     feedback on how everything is performing and whether any adjustments are needed.
 
 # Update Crate to the latest version
@@ -175,12 +175,14 @@ Used as splats family types to .ksplat
 
 ### Crate Camera Database
 
-Lives on [https://github.com/CrateTools/CrateCamDB](https://github.com/CrateTools/CrateCamDB) and Curators can update from it right from Crate´s interface.
+Lives on [https://github.com/CrateTools/CrateCamDB](https://github.com/CrateTools/CrateCamDB) and Curators can update from it right from Crate's interface.
 
 Crate's Camera module ships with a reference database of digital cinema, broadcast, drone, mobile, and film camera sensor specifications. This data is derived in part from **[VFXCamDB](https://vfxcamdb.com)** and **[Matchmove machine](https://camdb.matchmovemachine.com/)** 
 
 Crate Camera module would not exist in its current form without those projects. If you find this data useful, please consider [supporting VFXCamDB](https://vfxcamdb.com/donate/) and [supporting Matchmove machine](https://camdb.matchmovemachine.com/donate) directly.
 
 Any inaccuracies in Crate's database are ours, not VFXCamDB's or Matchmove Machine's; corrections are welcome via the issue tracker.
+
+---
 
 #
