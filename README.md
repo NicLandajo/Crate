@@ -2,6 +2,18 @@
 [![Crate 2.0 — Intro Tour](https://img.youtube.com/vi/DI1a0VykNU8/maxresdefault.jpg)](https://youtu.be/DI1a0VykNU8)
 Apache 2.0 · [Third-party licenses](THIRD_PARTY_LICENSES.md)
 
+# About Crate
+
+Crate is an asset browser and processing suite that runs inside Nuke. It browses your studio's libraries like a folder tree, previews geometry and Gaussian splats in 3D before import, and drops assets straight into the Node Graph.
+
+It generates thumbnails automatically as you browse, including from geometry and Gaussian splats. Thumbnails are cached once and shared, so the first artist to open a folder pays the cost and everyone else reads the result.
+
+Built for teams. Curators configure libraries, users and engines; Visitors browse and import. Access, write privileges and interface options are set per role, so an artist sees a simple browser while a pipeline lead sees the controls.
+
+Libraries and their caches are separate, so you can keep thumbnails and animated previews on SSD or NVMe while the raw elements live on high-capacity storage server.
+
+Compatible with Nuke 15, 16 and 17, on PySide2 and PySide6. Development and testing focused on Nuke 17.
+
 
 # Building your Crate | 3 Steps Quick Install
 
@@ -43,7 +55,7 @@ Your Crate Engines folder should look like this:
 </blockquote>
 
 <blockquote>
-<strong>OS Permissions:</strong> To run the application properly with read + write + execute permissions as a normal user, place the files in the shared folder for your operating system, talk to your admin or find the way for your OS admin to give this permissions so Crate can operate normally from Nuke.
+<strong>OS Permissions:</strong> To run the application properly with read + write + execute permissions as a normal user, place the files in the shared folder for your operating system, talk to your admin or find the way for your OS admin to give these permissions so Crate can operate normally from Nuke.
 </blockquote>
 
 
@@ -82,20 +94,6 @@ Only then, once you have ensured that you can fully restore your previous versio
 
 Check for updates using the Update button in Crate's Settings.
 
-# About Crate
-
-It´s the first 3D browser for Nuke that generates thumbnails from gaussian splats and geometry automatically for you without intervention.
-
-We´re are working to build a first long term solid foundation and allow users to update their Crate versions easily in the future.
-
-Crate 2 is a major update both for it´s interface, functions, engines and code. It works very different compared to V1, a clean install is needed.
-
-It´s compatible with PySide2 to PySide6 across Nuke 15 16 17, however, the full potential and features of Crate 2 and all its exhaustive testing has been done in Nuke 17 vith a focus on the future.
-
-New studio professional tools, Curators vs Visitors access, user read and write privileges, user interface privileges according to role. 
-
-Library objects vs storage tiers it allows to have the thumbnails and animated previews on a separate cache. You might choose to locate the cache over ssd/nvme disk and the raw elements on an array or high capacity disks.
-
 ## Licenses
 
 Crate is under Apache License.
@@ -131,9 +129,7 @@ Splat , WebGL 3D Gaussian Splat Viewer, which Crate depends on, is under MIT Lic
 
 ## Crate engines
 
-Crate calls five external engines. A prebuilt bundle is provided so you don't have to compile or configure anything:
-
-Download engines
+Crate calls six external engines. A prebuilt bundle is provided so you don't have to compile or configure anything.
 
 These are third-party binaries, redistributed under their own licenses. FFmpeg in this bundle is GPL v3 — source: https://github.com/FFmpeg/FFmpeg/commit/33b215d155 The other engines are permissively licensed (Apache 2.0, BSD). Full details: THIRD_PARTY_LICENSES.md
 
@@ -189,5 +185,5 @@ Crate's Camera module ships with a reference database of digital cinema, broadca
 
 Crate Camera module would not exist in its current form without those projects. If you find this data useful, please consider [supporting VFXCamDB](https://vfxcamdb.com/donate/) and [supporting Matchmove machine](https://camdb.matchmovemachine.com/donate) directly.
 
-Any inaccuracies in Crate's database are ours, not Vfx Camera Database and Matchmove machine; corrections are welcome via the issue tracker.
+Any inaccuracies in Crate's database are ours, not VFXCamDB's or Matchmove Machine's; corrections are welcome via the issue tracker.
 #
