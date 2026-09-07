@@ -120,7 +120,7 @@ The Windows binaries in the Crate Image Engines bundle are a community
 build (https://github.com/pitvfx/OpenImageIO), since ASWF does not
 publish official Windows binaries. The build bundles third-party
 components (Qt 6 under LGPL-3.0, Python under PSF, and others) under
-their own licenses — see the licensing note included alongside the
+their own licenses, see the licensing note included alongside the
 engines bundle.
 
 Playcanvas SplatTransform - 3D Gaussian Splat Converter, which Crate depends on, is under MIT License.
@@ -182,4 +182,5 @@ Crate's Camera module ships with a reference database of digital cinema, broadca
 Crate Camera module would not exist in its current form without those projects. If you find this data useful, please consider [supporting VFXCamDB](https://vfxcamdb.com/donate/) and [supporting Matchmove machine](https://camdb.matchmovemachine.com/donate) directly.
 
 Any inaccuracies in Crate's database are ours, not VFXCamDB's or Matchmove Machine's; corrections are welcome via the issue tracker.
+
 #
