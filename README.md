@@ -9,7 +9,7 @@ It generates thumbnails automatically as you browse, including from geometry and
 
 Built for teams. Curators configure libraries, users and engines; Visitors browse and import. Access, write privileges and interface options are set per role, so an artist sees a simple browser while a pipeline lead sees the controls.
 
-Libraries and their caches are separate, so you can keep thumbnails and animated previews on SSD or NVMe while the raw elements live on high-capacity storage server.
+Libraries and their caches are separate, so you can keep thumbnails and animated previews on SSD or NVMe while the raw elements live on high-capacity storage.
 
 Compatible with Nuke 15, 16 and 17, on PySide2 and PySide6. Development and testing focused on Nuke 17.
 
