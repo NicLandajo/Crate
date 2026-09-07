@@ -1,5 +1,7 @@
 # CRATE 2 for Nuke | Feature Tour Video
 [![Crate 2.0 — Intro Tour](https://img.youtube.com/vi/DI1a0VykNU8/maxresdefault.jpg)](https://youtu.be/DI1a0VykNU8)
+Apache 2.0 · [Third-party licenses](THIRD_PARTY_LICENSES.md)
+
 
 # Building your Crate | 3 Steps Quick Install
 
@@ -122,6 +124,14 @@ Splat , WebGL 3D Gaussian Splat Viewer, which Crate depends on, is under MIT Lic
 3dgsconverter, a Python command-line utility for converting Splats, which Crate depends on, is under MIT License.
 
 ## Crate engines
+
+Crate calls five external engines. A prebuilt bundle is provided so you don't have to compile or configure anything:
+
+Download engines
+
+These are third-party binaries, redistributed under their own licenses. FFmpeg in this bundle is GPL v3 — source: https://github.com/FFmpeg/FFmpeg/commit/33b215d155 The other engines are permissively licensed (Apache 2.0, BSD). Full details: THIRD_PARTY_LICENSES.md
+
+GPL v3 applies to the FFmpeg binary only. Crate is Apache 2.0 and runs each engine as a separate process. You can also point Crate at your own engine builds via crate_engines.txt.
 
 Crate uses F3D, OpenImageIO, FFmpeg, ImageMagick, MediaInfo, and PlayCanvas SplatTransform as background engines for automatic thumbnail generation, animated previews, metadata extraction, color-managed image processing, 3D geo/splat preview monitoring and Gaussian Splat family format conversion, all on the fly as you browse.
 
