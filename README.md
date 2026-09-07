@@ -133,7 +133,7 @@ Splat , WebGL 3D Gaussian Splat Viewer, which Crate depends on, is under MIT Lic
 
 Crate calls six external engines. A prebuilt bundle is provided so you don't have to compile or configure anything.
 
-These are third-party binaries, redistributed under their own licenses. FFmpeg in this bundle is GPL v3 — source: https://github.com/FFmpeg/FFmpeg/commit/33b215d155 The other engines are permissively licensed (Apache 2.0, BSD).
+These are third-party binaries, redistributed under their own licenses. FFmpeg in this bundle is GPL v3,  source: https://github.com/FFmpeg/FFmpeg/commit/33b215d155 The other engines are permissively licensed (Apache 2.0, BSD).
 
 GPL v3 applies to the FFmpeg binary only. Crate is Apache 2.0 and runs each engine as a separate process. You can also point Crate at your own engine builds via crate_engines.txt.
 
@@ -184,5 +184,3 @@ Crate Camera module would not exist in its current form without those projects. 
 Any inaccuracies in Crate's database are ours, not VFXCamDB's or Matchmove Machine's; corrections are welcome via the issue tracker.
 
 ---
-
-#
