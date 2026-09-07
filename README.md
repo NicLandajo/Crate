@@ -51,7 +51,9 @@ Your Crate Engines folder should look like this:
 </blockquote>
 
 <blockquote>
-<strong>Important Security Note:</strong> Platform Support: Crate has been primarily developed and tested on Windows 10 22H2. It should work on Windows 11, macOS, and Linux, but we cannot guarantee fully smooth functionality on these platforms yet. Some tweaking may be required, especially regarding file permissions and executable flags on macOS and Linux.
+<strong>Platform support.</strong> Crate is developed and tested on Windows 10 22H2 and works on Windows 11. The engine bundle contains Windows <code>.exe</code> binaries, including the Node.js runtime used by splat-transform.
+<br><br>
+macOS and Linux are not supported yet. The path is short, though: every engine path is configurable in <code>crate_engines.txt</code>, so pointing Crate at native builds of FFmpeg, OpenImageIO, F3D, ImageMagick, MediaInfo and splat-transform is the first step. Node.js is already present on most Linux and macOS machines, so the splat conversion panel is likely the easiest piece to get running. The remaining work is a small number of Windows-only calls in <code>crate_flight_recorder.py</code>. Contributions welcome.
 </blockquote>
 
 <blockquote>
@@ -131,7 +133,7 @@ Splat , WebGL 3D Gaussian Splat Viewer, which Crate depends on, is under MIT Lic
 
 Crate calls six external engines. A prebuilt bundle is provided so you don't have to compile or configure anything.
 
-These are third-party binaries, redistributed under their own licenses. FFmpeg in this bundle is GPL v3 — source: https://github.com/FFmpeg/FFmpeg/commit/33b215d155 The other engines are permissively licensed (Apache 2.0, BSD). Full details: THIRD_PARTY_LICENSES.md
+These are third-party binaries, redistributed under their own licenses. FFmpeg in this bundle is GPL v3 — source: https://github.com/FFmpeg/FFmpeg/commit/33b215d155 The other engines are permissively licensed (Apache 2.0, BSD).
 
 GPL v3 applies to the FFmpeg binary only. Crate is Apache 2.0 and runs each engine as a separate process. You can also point Crate at your own engine builds via crate_engines.txt.
 
@@ -155,9 +157,7 @@ https://nodejs.org/   (Crate JavaScript runtime used by the "splat-transform" en
 
 ## Credits & Acknowledgments
 
-<h3 style="font-size: 30em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
-  Splat
-</h3>
+### Splat
 
 WebGL implementation of a real-time renderer for 3D Gaussian Splatting by antimatter15
 
@@ -165,9 +165,7 @@ WebGL implementation of a real-time renderer for 3D Gaussian Splatting by antima
 
 Used as ply to splat converter
 
-<h3 style="font-size: 30em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
-  3dgsconverter
-</h3>
+### 3dgsconverter
 
 A versatile, high-performance tool for converting between various 3D Gaussian Splatting formats by Francesco Fugazzi
 
@@ -175,9 +173,7 @@ A versatile, high-performance tool for converting between various 3D Gaussian Sp
 
 Used as splats family types to .ksplat
 
-<h3 style="font-size: 30em; font-weight: bold; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-bottom: 15px;">
-  Crate Camera Database
-</h3>
+### Crate Camera Database
 
 Lives on [https://github.com/CrateTools/CrateCamDB](https://github.com/CrateTools/CrateCamDB) and Curators can update from it right from Crate´s interface.
 
