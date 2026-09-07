@@ -98,50 +98,21 @@ for licence compliance regarding them.
 THUMBNAIL & MEDIA ENGINES (required for full functionality)
 --------------------------------------------------------------------------------
 
-  F3D
-    https://f3d.app
-    Licence: BSD 3-Clause
-    Use: 3D model thumbnail generation (OBJ, FBX, ABC, STL, GLTF, GLB,
-    USD, USDC).
+F3D, which Crate depends on, is licensed under the BSD 3-Clause License.
 
-  ImageMagick
-    https://imagemagick.org
-    Licence: ImageMagick License (Apache-2.0-derived)
-    Use: 2D texture and image format thumbnail generation, brightness
-    and colour adjustment.
+ImageMagick, which Crate depends on, is licensed under the ImageMagick License (the "License").
 
-  FFmpeg
-    https://ffmpeg.org
-    Licence: GNU Lesser General Public License v2.1 or later (LGPL-2.1+)
-    for the libraries; some optional components are GPL-2.1+. The
-    licence of an FFmpeg binary depends on which components were enabled
-    when it was built. Crate invokes the FFmpeg command-line program
-    as an external process.
-    Use: video and image-sequence frame extraction, sprite-sheet
-    generation.
+FFmpeg, which Crate depends on, is distributed here as the full_build from gyan.dev, licensed under the GNU General Public License v3. This build includes GPL components (libx264, libx265, frei0r). Corresponding source: https://github.com/FFmpeg/FFmpeg/commit/33b215d155 GPL v3 applies to the FFmpeg binary only. Crate is Apache 2.0 and invokes FFmpeg as a separate process, which does not create a combined work. You may point Crate at any FFmpeg build you prefer via crate_engines.txt.
 
-  OpenImageIO (oiiotool)
-    https://openimageio.org
-    Licence: Apache-2.0 (with a small amount of pre-2023 code under
-    BSD-3-Clause)
-    Use: high-bit-depth image processing; DPX/EXR/HDR thumbnail
-    generation with colour management.
+MediaInfo, which Crate depends on, is under the BSD 2-Clause License
 
-  MediaInfo (CLI)
-    https://mediaarea.net/MediaInfo
-    Licence: BSD-2-Clause
-    Use: video and sequence metadata extraction (resolution, codec,
-    duration, frame count).
-	
-  SplatTransform
-    https://github.com/playcanvas/splat-transform
-    Licence: MIT
-    Use: 3D Gaussian Splat format conversion and processing. Reads
-    PLY, Compressed PLY, SOG, SPZ, SPLAT, KSPLAT, and LCC formats;
-    writes PLY, Compressed PLY, SOG, SPZ, and GLB. Supports
-    decimation, spherical harmonic band stripping, NaN filtering,
-    and spatial transformations. Invoked by Crate's SPLAT-C panel
-    via Node.js as an external process.	
+OpenImageIO, which Crate depends on, is under the Apache-2.0 License (project: https://github.com/AcademySoftwareFoundation/OpenImageIO). The Windows binaries in the Crate Image Engines bundle are a community build (https://github.com/pitvfx/OpenImageIO), since ASWF does not publish official Windows binaries. The build bundles third-party components (Qt 6 under LGPL-3.0, Python under PSF, and others) under their own licenses, see the licensing note included alongside the engines bundle.
+
+Playcanvas SplatTransform - 3D Gaussian Splat Converter, which Crate depends on, is under MIT License.
+
+Splat , WebGL 3D Gaussian Splat Viewer, which Crate depends on, is under MIT License.
+
+3dgsconverter, a Python command-line utility for converting Splats, which Crate depends on, is under MIT License.
 	
 --------------------------------------------------------------------------------
 "OPEN WITH" PLUGINS (optional external viewers and tools)
